@@ -17,10 +17,10 @@
 <li>build_freq_dict which takes all the tweets and their labels, this produces the frequency dictionary which is the frequency of each word in the positive tweets and negative tweets
 <li>get_total_pos_neg_frequency function calculates the total number of wordsin the positive tweets and total number of words in negative tweets
 <li>build_probability function calculates the probability of each word given if it is classified as negative or positive P(Word|pos) and P(word|neg), which is calculated using the given formula
-<div><img src="https://miro.medium.com/v2/resize:fit:1011/1*7fCiWdownuuotu0T-9nsOg.png"></div>
+<div align="center"><img src="https://miro.medium.com/v2/resize:fit:1011/1*7fCiWdownuuotu0T-9nsOg.png" width="541" height="277"></div>
 <li>build_naive_inference function which computes the prediction for each tweet by using the laplacian smoothing to calculate log liklihood and adding the log prior to it using the given formula
 <div align="center">
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*TYKrmbwVU5rYOszmxqUdXg.png" width="741" height="277">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*TYKrmbwVU5rYOszmxqUdXg.png" width="541" height="277">
 </div>
 
 </ul>
