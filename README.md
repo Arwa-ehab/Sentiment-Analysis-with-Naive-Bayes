@@ -19,8 +19,8 @@
 <li>build_probability function calculates the probability of each word given if it is classified as negative or positive P(Word|pos) and P(word|neg), which is calculated using the given formula
 <div><img src="https://miro.medium.com/v2/resize:fit:1011/1*7fCiWdownuuotu0T-9nsOg.png"></div>
 <li>build_naive_inference function which computes the prediction for each tweet by using the laplacian smoothing to calculate log liklihood and adding the log prior to it using the given formula
-<div>
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*TYKrmbwVU5rYOszmxqUdXg.png">
+<div align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*TYKrmbwVU5rYOszmxqUdXg.png" width="741" height="277">
 </div>
 
 </ul>
